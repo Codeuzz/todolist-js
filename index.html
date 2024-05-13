@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css\main.css">
+    <script src="js\main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <section class="task-list">
+        <h1>Liste des tâches :</h1>
+        <div id="task-container"></div>
+    </section>
+    <section class="add-task">
+        <h3>Ajouter une tâche</h3>
+        <form>
+            <input id="task-input" placeholder="Nom de la tâche"></input>
+            <select id="select-lvl">
+                <option value="">Importance</option>
+                <option class="lvl-1" value="1">1</option>
+                <option class="lvl-2" value="2">2</option>
+                <option class="lvl-3" value="3">3</option>
+            </select>
+            <button id="add-btn">Ajouter</button>
+        </form>
+        <button id="delete-btn">Supprimer</button>
+    </section>
+    
+</body>
+</html>
